@@ -1,4 +1,4 @@
 # subdomainfinder
 language: python
 usage:
-python subdomainfinder.py
+python3 subdomainfinder.py
