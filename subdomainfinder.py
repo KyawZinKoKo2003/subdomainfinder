@@ -24,7 +24,7 @@ time.sleep(3)
 url=str(input(green+'[+]Enter the name of domain you want to find [+] --> '))
 time.sleep(1)
 print("Finding for susbdomains...")
-sub_domains=open("url.txt",'r')
+sub_domains=open("sub_domain.txt",'r')
 real_sub=sub_domains.read()
 real_subdomains=real_sub.splitlines()
 for subdomain in real_subdomains:
